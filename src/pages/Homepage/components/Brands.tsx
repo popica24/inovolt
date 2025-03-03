@@ -1,5 +1,4 @@
 import Tilt from 'react-parallax-tilt';
-import { useState } from 'react';
 
 const Brands = () => {
   return (
