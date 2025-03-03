@@ -49,9 +49,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='col-span-2 mx-auto mt-12 max-w-[300px] md:mx-0 md:mt-0 md:max-w-none'>
-        <svg role='img' viewBox='0 0 366 729' data-aos='fade-left' data-aos-delay='300'>
-          <title>App screenshot</title>
+      <div className='col-span-2 mx-auto mt-12 max-w-[300px] md:mx-0 md:mt-0 md:max-w-none' data-aos='fade-left'>
+        <svg role='img' viewBox='0 0 366 729' data-aos-delay='300'>
           <defs>
             <clipPath id='2ade4387-9c63-4fc4-b754-10e687a0d332'>
               <rect rx='36' width='316' height='684'></rect>
