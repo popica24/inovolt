@@ -6,9 +6,12 @@ const Hero = () => {
     <div className='grid-cols-6 items-center px-5 md:grid'>
       <div className='col-span-4'>
         <div className='flex flex-col items-center justify-start'>
-          <div className='mb-6 me-auto rounded-full border border-[#E7E7E9] px-4 py-1' data-aos='fade-up'>
+          <div
+            className='mb-6 me-auto whitespace-nowrap rounded-full border border-[#E7E7E9] px-4 py-1'
+            data-aos='fade-up'
+          >
             <div className='flex flex-row items-center'>
-              <p className='font-semibold text-[#7eb651]'>Battery InoVolt 16kW</p>
+              <p className='font-semibold text-[var(--electric-green)]'>Battery InoVolt 16kW</p>
               <span className='h-full px-2 text-[#E7E7E9]'>|</span>
               <p className='font-medium'>Check in store</p>
               <svg
@@ -28,7 +31,7 @@ const Hero = () => {
               </svg>
             </div>
           </div>
-          <h1 className='text-[4.5rem] font-[610] leading-[1] text-[#101828]' data-aos='fade-up' data-aos-delay='200'>
+          <h1 className='section-title' data-aos='fade-up' data-aos-delay='200'>
             A better way to store solar energy
           </h1>
           <p
@@ -40,10 +43,10 @@ const Hero = () => {
             fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
           </p>
           <div className='mt-6 flex w-full flex-row items-center justify-start' data-aos='fade-up' data-aos-delay='600'>
-            <button className='rounded bg-[#55BC01] px-4 py-2 font-bold text-white hover:bg-white hover:text-[#55BC01]'>
+            <button className='rounded bg-[#55BC01] px-4 py-2 font-bold text-white transition-colors hover:bg-white hover:text-[#55BC01]'>
               Marketplace
             </button>
-            <button className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] hover:bg-[#55BC01] hover:text-white'>
+            <button className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] transition-colors hover:bg-[#55BC01] hover:text-white'>
               Consultancy
             </button>
           </div>

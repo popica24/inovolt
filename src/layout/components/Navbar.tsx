@@ -6,8 +6,8 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { mobileNavContainerVariant, mobileNavListVariant, mobileNavExitProps } from './data/animationConfig';
 const Navbar = () => {
   return (
-    <header className='bg-background text-text-primary sticky top-0 z-[40] mx-auto w-full border-b border-gray-100 bg-[var(--pale-pink)] p-[2em] uppercase  opacity-80 backdrop-blur-lg'>
-      <div className='container mx-auto flex flex-wrap items-center justify-between'>
+    <header className='bg-background text-text-primary sticky top-0 z-[40] mx-auto w-full border-b border-gray-100 p-[2em] uppercase  opacity-80 backdrop-blur-lg'>
+      <div className='container mx-auto flex flex-wrap items-center justify-center'>
         <Logo />
         <Nav />
       </div>

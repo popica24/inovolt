@@ -5,10 +5,25 @@
 :root {
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --default-mono-font-family: var(--font-mono);
+  --electric-green: #7eb651;
 }
 
 .default-font {
   font-family: var(--default-mono-font-family);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@layer components {
+  .section-title {
+    @apply text-[2rem] font-[610] leading-[1] text-[#101828] md:text-[4.5rem];
+  }
+  .section-bold-title {
+    @apply mb-10 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl;
+  }
 }
 
 h1 {

@@ -1,25 +1,27 @@
+import { Download } from 'lucide-react';
+
 const Blog = () => {
   return (
     <section className='relative py-12 lg:py-24'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap items-center justify-center'>
           <div className='w-full px-4 sm:mb-0'>
-            <h1 className='mb-10 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl'>
-              Read it on your own !
-            </h1>
+            <h1 className='section-bold-title'>Read it on your own !</h1>
           </div>
         </div>
         <div className='-mx-4 flex flex-wrap'>
-          <div className='mb-8 w-full px-4 lg:mb-0 lg:w-1/2 xl:w-7/12'>
+          <div className='mb-8 w-full px-4 lg:mb-0 lg:w-1/2 xl:w-7/12' data-aos='fade-right' data-aos-delay='100'>
             <div>
-              <img className='mb-8 block w-full' src='quantum-assets/blog/image-lg-post.png' alt='' />
+              <img className='mb-8 block w-full rounded-2xl' src='quantum-assets/blog/big-picture.jpg' alt='' />
               <div className='mb-6'>
                 <a
-                  className='mr-2 inline-block rounded-full border-2 px-2 text-sm font-medium text-[#07C] hover:bg-gray-50'
+                  className='mr-2 inline-block rounded-full border-2 pe-3 ps-2 text-sm font-medium text-[#07C] hover:bg-gray-50'
                   href='#'
                 >
-                  Technical Data Sheet
-                </a>{' '}
+                  <span className='inline-flex items-center'>
+                    Technical Data Sheet <Download className='ms-1.5 mt-0.5' size={15} />
+                  </span>
+                </a>
               </div>
               <a className='group block max-w-2xl' href='#'>
                 <h3 className='mb-4 text-3xl font-medium transition duration-200 group-hover:text-teal-600'>
@@ -47,7 +49,12 @@ const Blog = () => {
           </div>
           <div className='w-full px-4 lg:w-1/2 xl:w-5/12'>
             <div className='max-w-lg'>
-              <a className='group mb-8 flex flex-wrap items-center sm:flex-nowrap' href='#'>
+              <a
+                className='group mb-8 flex flex-wrap items-center sm:flex-nowrap'
+                href='#'
+                data-aos='fade-down-left'
+                data-aos-delay='200'
+              >
                 <img className='block' src='quantum-assets/blog/image-sm-1.png' alt='' />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
@@ -67,8 +74,17 @@ const Blog = () => {
                   </div>
                 </div>
               </a>{' '}
-              <a className='group mb-8 flex flex-wrap items-center sm:flex-nowrap' href='#'>
-                <img className='block' src='quantum-assets/blog/image-sm-2.png' alt='' />
+              <a
+                className='group mb-8 flex flex-wrap items-center sm:flex-nowrap'
+                href='#'
+                data-aos='fade-left'
+                data-aos-delay='300'
+              >
+                <img
+                  className='block aspect-square max-w-[177px] rounded-2xl'
+                  src='quantum-assets/blog/3x2.jpg'
+                  alt=''
+                />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
                     How InoVolt Batteries Are Changing the Solar Energy Landscape{' '}
@@ -87,7 +103,12 @@ const Blog = () => {
                   </div>
                 </div>
               </a>{' '}
-              <a className='group flex flex-wrap items-center sm:flex-nowrap' href='#'>
+              <a
+                className='group flex flex-wrap items-center sm:flex-nowrap'
+                href='#'
+                data-aos='fade-up-left'
+                data-aos-delay='200'
+              >
                 <img className='block' src='quantum-assets/blog/image-sm-3.png' alt='' />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>

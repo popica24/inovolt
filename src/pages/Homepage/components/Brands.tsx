@@ -2,20 +2,23 @@ import Tilt from 'react-parallax-tilt';
 
 const Brands = () => {
   return (
-    <div className='mt-12 bg-white'>
-      <h1 className='mb-4 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl'>
-        Compatible with top notch brands.
+    <div className='my-12 bg-white p-4'>
+      <h1 className='section-title' data-aos='fade-up' data-aos-delay='200'>
+        Compatible with top notch brands
       </h1>
-      <p className='mb-6 text-lg font-normal sm:px-16 lg:text-xl xl:px-48 dark:text-gray-400'>
-        Compatible with top-notch brands, ensuring seamless integration with the most reliable and trusted names in the
-        industry. Whether you're upgrading your system or building a new one, our solutions are designed to work
-        effortlessly with leading brands, providing superior performance, reliability, and long-lasting results.
-        Experience the peace of mind that comes with knowing your equipment is fully compatible with the best in the
-        business.
+      <p
+        className='leading-[calc(var(0.25rem * 8))] mt-6 text-[1.25rem] text-[#6a7282]'
+        data-aos='fade-up'
+        data-aos-delay='400'
+      >
+        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat
+        veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
       </p>
-      <div className='flex flex-row flex-wrap justify-center'>
+      <div className='mt-6 grid grid-cols-2 flex-row flex-wrap place-items-center items-center justify-around md:grid-cols-3 lg:flex'>
         <LogoCard url='logos/solis.webp' />
         <LogoCard url='logos/growat.png' />
+        <LogoCard url='logos/victron.webp' />
+        <LogoCard url='logos/deye.jpeg' />
         <LogoCard url='logos/sungrow.jpg' />
         <LogoCard url='logos/fronius.webp' />
       </div>
@@ -35,7 +38,7 @@ function LogoCard({ url }: { url: string }) {
       transitionSpeed={1500}
       scale={1.1}
       gyroscope={true}
-      className='m-4 aspect-square w-[120px] bg-cover bg-center bg-no-repeat drop-shadow-lg sm:w-[150px]'
+      className='m-4 aspect-square w-[120px] bg-cover bg-center bg-no-repeat drop-shadow-lg sm:w-[133px] xl:w-[150px]'
       style={{
         backgroundImage: `url(${url})`,
       }}
