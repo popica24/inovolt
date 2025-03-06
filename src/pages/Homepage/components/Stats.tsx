@@ -78,6 +78,8 @@ const Block = ({
       {svg}
       <span className='text-[13px] text-[#1a1a1a] sm:text-[24px] lg:text-[16px] lg:leading-[34px]'>{title}</span>
       <CountUp
+        scrollSpyOnce={true}
+        enableScrollSpy={true}
         className=' text-[35px] sm:text-[60px] md:text-[60px] lg:text-[86px] lg:leading-[85px]'
         {...countUpProps}
       />
