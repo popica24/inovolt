@@ -7,7 +7,7 @@ import Stats from './components/Stats';
 
 const Homepage = () => {
   return (
-    <div className='container mx-auto my-10'>
+    <div className='container mx-auto mb-10 mt-36'>
       <Hero /> <hr className='mt-8' />
       <Brands /> <hr />
       <Stats /> <hr />
