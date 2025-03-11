@@ -54,13 +54,13 @@ const Nav = () => {
               </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <a href='/blog' className='default-font mx-2'>
+              <a href='https://magazin.inovolt.ro' className='default-font mx-2'>
                 Magazin
               </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <a href='/blog' className='default-font mx-2'>
-                Blog
+              <a href='/contact' className='default-font mx-2'>
+                Contact
               </a>
             </motion.div>
           </motion.div>
@@ -76,11 +76,11 @@ const NavLinks = () => {
       <a className='default-font mx-2' href='/'>
         Acasa
       </a>
-      <a className='default-font mx-2' href='/'>
+      <a className='default-font mx-2' href='https://magazin.inovolt.ro'>
         Magazin
       </a>
-      <a className='default-font mx-2' href='/'>
-        Blog
+      <a className='default-font mx-2' href='/contact'>
+        Contact
       </a>
     </>
   );

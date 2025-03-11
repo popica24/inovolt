@@ -1,5 +1,6 @@
 import Layout from 'layout';
 import AboutUs from 'pages/AboutUs/AboutUs';
+import Contact from 'pages/Contact';
 import Future from 'pages/Future';
 import Guide from 'pages/Guide';
 import Homepage from 'pages/Homepage';
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'casa-smart',
         element: <SmartHome />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
       },
     ],
   },

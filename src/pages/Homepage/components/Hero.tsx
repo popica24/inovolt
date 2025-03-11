@@ -10,26 +10,28 @@ const Hero = () => {
             className='mb-6 me-auto whitespace-nowrap rounded-full border border-[#E7E7E9] px-4 py-1'
             data-aos='fade-up'
           >
-            <div className='flex flex-row items-center'>
-              <p className='font-semibold text-[var(--electric-green)]'>Baterie InoVolt 16kW</p>
-              <span className='h-full px-2 text-[#E7E7E9]'>|</span>
-              <p className='font-medium'>Vezi in magazin</p>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                viewBox='0 0 20 20'
-                height={20}
-                fill='#b6b6b8'
-                aria-hidden='true'
-                data-slot='icon'
-                className='mt-[3px]'
-              >
-                <path
-                  fill-rule='evenodd'
-                  d='M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z'
-                  clip-rule='evenodd'
-                ></path>
-              </svg>
-            </div>
+            <a href='https://magazin.inovolt.ro'>
+              <div className='flex flex-row items-center'>
+                <p className='font-semibold text-[var(--electric-green)]'>Baterie InoVolt 16kW</p>
+                <span className='h-full px-2 text-[#E7E7E9]'>|</span>
+                <p className='font-medium'>Vezi in magazin</p>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  viewBox='0 0 20 20'
+                  height={20}
+                  fill='#b6b6b8'
+                  aria-hidden='true'
+                  data-slot='icon'
+                  className='mt-[3px]'
+                >
+                  <path
+                    fill-rule='evenodd'
+                    d='M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z'
+                    clip-rule='evenodd'
+                  ></path>
+                </svg>
+              </div>
+            </a>
           </div>
           <h1 className='section-title' data-aos='fade-up' data-aos-delay='200'>
             Cea mai bună solutie de stocare a energiei solare
@@ -43,9 +45,12 @@ const Hero = () => {
             tehnologie avansată, asigură independență energetică și performanță fiabilă.
           </p>
           <div className='mt-6 flex w-full flex-row items-center justify-start' data-aos='fade-up' data-aos-delay='600'>
-            <button className='rounded bg-[#55BC01] px-4 py-2 font-bold text-white transition-colors hover:bg-white hover:text-[#55BC01]'>
+            <a
+              href='https://magazin.inovolt.ro'
+              className='rounded bg-[#55BC01] px-4 py-2 font-bold text-white transition-colors hover:bg-white hover:text-[#55BC01]'
+            >
               Magazin
-            </button>
+            </a>
             <a
               href='tel:+40774667788'
               className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] transition-colors hover:bg-[#55BC01] hover:text-white'
