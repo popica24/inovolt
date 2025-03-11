@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from 'react-router';
+import { useLocation } from 'react-router';
 import Logo from './Logo';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -49,24 +49,19 @@ const Nav = () => {
             className='mt-4 basis-full md:hidden'
           >
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <NavLink to='/' className={activeStyleCallback}>
-                Product
-              </NavLink>
+              <a href='/' className='default-font mx-2'>
+                Acasa
+              </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <NavLink to='/blog' className={activeStyleCallback}>
-                Features
-              </NavLink>
+              <a href='/blog' className='default-font mx-2'>
+                Magazin
+              </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <NavLink to='/blog' className={activeStyleCallback}>
-                Marketplace
-              </NavLink>
-            </motion.div>
-            <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <NavLink to='/blog' className={activeStyleCallback}>
-                Reviews
-              </NavLink>
+              <a href='/blog' className='default-font mx-2'>
+                Blog
+              </a>
             </motion.div>
           </motion.div>
         )}
@@ -75,25 +70,18 @@ const Nav = () => {
   );
 };
 
-const activeClassName = 'selected navlink mx-2 default-font';
-const activeStyleCallback = ({ isActive }: { isActive: Boolean }) =>
-  isActive ? activeClassName : 'default-font navlink';
-
 const NavLinks = () => {
   return (
     <>
-      <NavLink className={activeStyleCallback} to={'/'}>
-        Product
-      </NavLink>
-      <NavLink className={activeStyleCallback} to={'/'}>
-        Features
-      </NavLink>
-      <NavLink className={activeStyleCallback} to={'/'}>
-        Marketplace
-      </NavLink>
-      <NavLink className={activeStyleCallback} to={'/'}>
-        Reviews
-      </NavLink>
+      <a className='default-font mx-2' href='/'>
+        Acasa
+      </a>
+      <a className='default-font mx-2' href='/'>
+        Magazin
+      </a>
+      <a className='default-font mx-2' href='/'>
+        Blog
+      </a>
     </>
   );
 };

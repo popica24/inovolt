@@ -4,15 +4,15 @@ const Brands = () => {
   return (
     <div className='my-12 bg-white p-4'>
       <h1 className='section-title' data-aos='fade-up' data-aos-delay='200'>
-        Compatible with top notch brands
+        Compatibilitate cu branduri de top
       </h1>
       <p
-        className='leading-[calc(var(0.25rem * 8))] mt-6 text-[1.25rem] text-[#6a7282]'
+        className='leading-[calc(var(0.25rem * 8))] mt-6 text-[1.1rem] text-[#6a7282]'
         data-aos='fade-up'
         data-aos-delay='400'
       >
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat
-        veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
+        Compatibilitatea cu branduri de invertoare de top este un aspect esențial atunci când alegi un sistem de stocare
+        a energiei solare.{' '}
       </p>
       <div className='mt-6 grid grid-cols-2 flex-row flex-wrap place-items-center items-center justify-around md:grid-cols-3 lg:flex'>
         <LogoCard url='logos/solis.webp' />

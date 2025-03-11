@@ -19,7 +19,7 @@ body {
 
 @layer components {
   .section-title {
-    @apply text-[2rem] font-[610] leading-[1] text-[#101828] md:text-[4.5rem];
+    @apply text-[1.6rem] font-[610] leading-[1] text-[#101828] md:text-[4rem];
   }
   .section-bold-title {
     @apply mb-10 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl;

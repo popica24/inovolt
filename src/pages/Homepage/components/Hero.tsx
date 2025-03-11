@@ -11,9 +11,9 @@ const Hero = () => {
             data-aos='fade-up'
           >
             <div className='flex flex-row items-center'>
-              <p className='font-semibold text-[var(--electric-green)]'>Battery InoVolt 16kW</p>
+              <p className='font-semibold text-[var(--electric-green)]'>Baterie InoVolt 16kW</p>
               <span className='h-full px-2 text-[#E7E7E9]'>|</span>
-              <p className='font-medium'>Check in store</p>
+              <p className='font-medium'>Vezi in magazin</p>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 20 20'
@@ -32,23 +32,26 @@ const Hero = () => {
             </div>
           </div>
           <h1 className='section-title' data-aos='fade-up' data-aos-delay='200'>
-            A better way to store solar energy
+            Cea mai bună solutie de stocare a energiei solare
           </h1>
           <p
             className='leading-[calc(var(0.25rem * 8))] mt-6 text-[1.25rem] text-[#6a7282]'
             data-aos='fade-up'
             data-aos-delay='400'
           >
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt.
+            InoVolt oferă stocare inteligentă a energiei solare, maximizând eficiența și reducând costurile. Cu
+            tehnologie avansată, asigură independență energetică și performanță fiabilă.
           </p>
           <div className='mt-6 flex w-full flex-row items-center justify-start' data-aos='fade-up' data-aos-delay='600'>
             <button className='rounded bg-[#55BC01] px-4 py-2 font-bold text-white transition-colors hover:bg-white hover:text-[#55BC01]'>
-              Marketplace
+              Magazin
             </button>
-            <button className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] transition-colors hover:bg-[#55BC01] hover:text-white'>
-              Consultancy
-            </button>
+            <a
+              href='tel:+40774667788'
+              className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] transition-colors hover:bg-[#55BC01] hover:text-white'
+            >
+              Consultanta
+            </a>
           </div>
         </div>
       </div>
@@ -82,21 +85,10 @@ const Hero = () => {
               interval={1500}
               showIndicators={false}
             >
-              <img
-                className='h-full w-full'
-                alt=''
-                src='https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/90/79/98/90799808-b769-22e7-16c4-0e4e9f381b22/49735dd0-db41-4662-934f-06133ec77b21__U5fae_U4fe1_U56fe_U7247_20240113145521.jpg/300x0w.webp'
-              />
-              <img
-                className='h-full w-full'
-                alt=''
-                src='https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/36/97/dd/3697ddb4-5395-62a3-c2fc-617b6d18c3e5/d04b9e63-c8b0-45d4-8bdd-9f024390bc96__U5fae_U4fe1_U56fe_U7247_20240113145509.jpg/300x0w.webp'
-              />
-              <img
-                className='h-full w-full'
-                alt=''
-                src='https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/2e/c7/732ec76b-fa12-411c-d13a-e5de01db01d2/a9f56dd8-16bc-43c2-baea-5006a2dd86a4__U5fae_U4fe1_U56fe_U7247_20240113145534.jpg/300x0w.webp'
-              />
+              <img className='h-full w-full' alt='' src='app/app1.jpg' />
+              <img className='h-full w-full' alt='' src='app/app2.jpg' />
+              <img className='h-full w-full' alt='' src='app/app3.jpg' />
+              <img className='h-full w-full' alt='' src='app/app4.jpg' />
             </Carousel>
           </foreignObject>
         </svg>

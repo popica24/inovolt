@@ -6,7 +6,7 @@ const Blog = () => {
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap items-center justify-center'>
           <div className='w-full px-4 sm:mb-0'>
-            <h1 className='section-bold-title'>Read it on your own !</h1>
+            <h1 className='section-bold-title'>Citeste si tu !</h1>
           </div>
         </div>
         <div className='-mx-4 flex flex-wrap'>
@@ -19,23 +19,25 @@ const Blog = () => {
                   href='#'
                 >
                   <span className='inline-flex items-center'>
-                    Technical Data Sheet <Download className='ms-1.5 mt-0.5' size={15} />
+                    Fisa tehnica <Download className='ms-1.5 mt-0.5' size={15} />
                   </span>
                 </a>
               </div>
-              <a className='group block max-w-2xl' href='#'>
+              <a className='group block max-w-2xl' href='despre-inovolt'>
                 <h3 className='mb-4 text-3xl font-medium transition duration-200 group-hover:text-teal-600'>
-                  A Better Way to Power the Future: Smart Solar Energy Storage with InoVolt{' '}
+                  O modalitate mai bună de a alimenta viitorul: Stocare inteligentă a energiei solare cu InoVolt
                 </h3>
                 <p className='mb-6 text-lg text-gray-700'>
-                  <b>Solar energy is changing the game for homeowners and businesses alike.</b> In this blog post, we’ll
-                  explore how cutting-edge battery storage, like <b>InoVolt</b>, maximizes efficiency, reduces costs,
-                  and gives you true energy independence...{' '}
+                  <b>
+                    Energia solară schimbă regulile jocului atât pentru proprietarii de locuințe, cât și pentru afaceri.
+                  </b>{' '}
+                  În această postare pe blog, vom explora cum stocarea avansată a energiei, precum <b>InoVolt</b>,
+                  maximizează eficiența, reduce costurile și îți oferă adevărata independență energetică...{' '}
                 </p>
                 <div className='flex items-center'>
                   <img className='h-10 w-10 rounded-full' src='quantum-assets/blog/avatar-1.png' alt='' />
                   <div className='ml-4 flex items-center'>
-                    <span className='text-sm font-medium'>Leslie Alexander</span>{' '}
+                    <span className='text-sm font-medium'>Andrei Niculae (CEO)</span>{' '}
                     <span className='mx-2 sm:mx-4'>
                       <svg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'>
                         <circle cx='2' cy='2' r='2' fill='#929C9A'></circle>
@@ -51,19 +53,19 @@ const Blog = () => {
             <div className='max-w-lg'>
               <a
                 className='group mb-8 flex flex-wrap items-center sm:flex-nowrap'
-                href='#'
+                href='ghid-baterii'
                 data-aos='fade-down-left'
                 data-aos-delay='200'
               >
                 <img className='block' src='quantum-assets/blog/image-sm-1.png' alt='' />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
-                    Choosing the Right Solar Battery: A Comprehensive Guide{' '}
+                    Alegerea bateriei solare potrivite: Ghid complet
                   </h3>
                   <div className='flex items-center'>
                     <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-1.png' alt='' />
                     <div className='ml-4 flex items-center'>
-                      <span className='text-sm font-medium'>Wade Warren</span>{' '}
+                      <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>
                         <svg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'>
                           <circle cx='2' cy='2' r='2' fill='#929C9A'></circle>
@@ -76,7 +78,7 @@ const Blog = () => {
               </a>{' '}
               <a
                 className='group mb-8 flex flex-wrap items-center sm:flex-nowrap'
-                href='#'
+                href='bateriile-inovolt'
                 data-aos='fade-left'
                 data-aos-delay='300'
               >
@@ -87,12 +89,12 @@ const Blog = () => {
                 />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
-                    How InoVolt Batteries Are Changing the Solar Energy Landscape{' '}
+                    Cum bateriile InoVolt transformă peisajul energiei solare{' '}
                   </h3>
                   <div className='flex items-center'>
                     <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-2.png' alt='' />
                     <div className='ml-4 flex items-center'>
-                      <span className='text-sm font-medium'>Jenny Wilson</span>{' '}
+                      <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>
                         <svg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'>
                           <circle cx='2' cy='2' r='2' fill='#929C9A'></circle>
@@ -105,19 +107,19 @@ const Blog = () => {
               </a>{' '}
               <a
                 className='group flex flex-wrap items-center sm:flex-nowrap'
-                href='#'
+                href='casa-smart'
                 data-aos='fade-up-left'
                 data-aos-delay='200'
               >
                 <img className='block' src='quantum-assets/blog/image-sm-3.png' alt='' />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
-                    The Future of Home Energy: Smart Batteries and Mobile Control
+                    Viitorul energiei domestice: Baterii inteligente și control mobil{' '}
                   </h3>
                   <div className='flex items-center'>
                     <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-3.png' alt='' />
                     <div className='ml-4 flex items-center'>
-                      <span className='text-sm font-medium'>Leslie Alexander</span>{' '}
+                      <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>
                         <svg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'>
                           <circle cx='2' cy='2' r='2' fill='#929C9A'></circle>

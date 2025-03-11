@@ -8,11 +8,11 @@ const Stats = () => {
   return (
     <div className='p-4'>
       <h2 className='section-bold-title' data-aos='fade-up' data-aos-anchor-placement='top-bottom'>
-        Power Made Simple
+        Simplu, Putere!
       </h2>
       <div className='grid w-full grid-cols-2 flex-row items-center justify-around text-[var(--electric-green)] md:flex'>
         <Block
-          title='Efficiency'
+          title='Eficienta'
           countUpProps={{
             start: 0,
             end: 95,
@@ -23,21 +23,21 @@ const Stats = () => {
           subtitle='Cycles'
         />
         <Block
-          title='Switch time'
+          title='Timp de incarcare'
           countUpProps={{
             start: 0,
-            end: 100,
+            end: 2,
             duration: 1.2,
-            suffix: 'ms',
+            suffix: 'h',
           }}
           svg={<ChevronsLeftRightEllipsis className={SVGClasses} />}
           subtitle='efficiency'
         />
         <Block
-          title='Depth of Discharge'
+          title='Profunzime de descărcare'
           countUpProps={{
             start: 0,
-            end: 80,
+            end: 90,
             duration: 1.2,
             suffix: '%',
           }}
@@ -46,10 +46,10 @@ const Stats = () => {
         />
 
         <Block
-          title='Lifespan'
+          title='Cicluri'
           countUpProps={{
-            start: 5000,
-            end: 6000,
+            start: 7000,
+            end: 8000,
             duration: 1.2,
             suffix: '+',
           }}
