@@ -36,7 +36,11 @@ const Footer = () => {
               <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white'>Follow us</h2>
               <ul className='font-medium text-gray-500 dark:text-gray-400'>
                 <li className='mb-4'>
-                  <a href='#' target='_blank' className='hover:underline '>
+                  <a
+                    href='https://www.facebook.com/profile.php?id=61573047651283'
+                    target='_blank'
+                    className='hover:underline '
+                  >
                     Facebook
                   </a>
                 </li>
@@ -83,7 +87,11 @@ const Footer = () => {
             . All Rights Reserved.
           </span>
           <div className='mt-4 flex sm:mt-0 sm:justify-center'>
-            <a target='_blank' href='#' className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+            <a
+              target='_blank'
+              href='https://www.facebook.com/profile.php?id=61573047651283'
+              className='text-gray-500 hover:text-gray-900 dark:hover:text-white'
+            >
               <svg width={24} fill='#000000' version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
                 <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
                 <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>

@@ -35,7 +35,7 @@ const Blog = () => {
                   maximizează eficiența, reduce costurile și îți oferă adevărata independență energetică...{' '}
                 </p>
                 <div className='flex items-center'>
-                  <img className='h-10 w-10 rounded-full' src='quantum-assets/blog/avatar-1.png' alt='' />
+                  <img className='h-10 w-10 rounded-full' src='ceo.jpg' alt='' />
                   <div className='ml-4 flex items-center'>
                     <span className='text-sm font-medium'>Andrei Niculae (CEO)</span>{' '}
                     <span className='mx-2 sm:mx-4'>
@@ -63,7 +63,7 @@ const Blog = () => {
                     Alegerea bateriei solare potrivite: Ghid complet
                   </h3>
                   <div className='flex items-center'>
-                    <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-1.png' alt='' />
+                    <img className='h-8 w-8 rounded-full' src='ceo.jpg' alt='' />
                     <div className='ml-4 flex items-center'>
                       <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>
@@ -92,7 +92,7 @@ const Blog = () => {
                     Cum bateriile InoVolt transformă peisajul energiei solare{' '}
                   </h3>
                   <div className='flex items-center'>
-                    <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-2.png' alt='' />
+                    <img className='h-8 w-8 rounded-full' src='ceo.jpg' alt='' />
                     <div className='ml-4 flex items-center'>
                       <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>
@@ -117,7 +117,7 @@ const Blog = () => {
                     Viitorul energiei domestice: Baterii inteligente și control mobil{' '}
                   </h3>
                   <div className='flex items-center'>
-                    <img className='h-8 w-8 rounded-full' src='quantum-assets/blog/circle-avatar-3.png' alt='' />
+                    <img className='h-8 w-8 rounded-full' src='ceo.jpg' alt='' />
                     <div className='ml-4 flex items-center'>
                       <span className='text-sm font-medium'>Andrei Niculae</span>{' '}
                       <span className='mx-2 sm:mx-4'>

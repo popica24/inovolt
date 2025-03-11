@@ -138,7 +138,10 @@ const AboutUs = () => {
             </ol>
           </div>
 
-          <div className='container mt-8 rounded bg-green-100 p-4 text-center font-sans md:p-24'>
+          <div
+            className='container mt-8 rounded bg-green-100 p-4 text-center font-sans md:p-24'
+            id='inregistreaza-produs'
+          >
             <h2 className='break-normal text-2xl font-bold md:text-4xl'>Inregistreaza-ti produsul !</h2>
             <h3 className=' break-normal text-base font-normal text-gray-600 md:text-xl'>
               Pentru o garantie extra de 3 luni inregistreaza-ti prodsul
@@ -163,7 +166,7 @@ const AboutUs = () => {
           </div>
 
           <div className='flex w-full items-center p-8 font-sans md:p-24'>
-            <img className='mr-4 h-10 w-10 rounded-full' src='' alt='Avatar of Author' />
+            <img className='mr-4 h-10 w-10 rounded-full' src='ceo.jpg' alt='Avatar of Author' />
             <div className='flex-1'>
               <p className='text-base font-bold leading-none md:text-xl'>Andrei Niculae</p>
               <p className='text-xs text-gray-600 md:text-base'>O modalitate mai bună de a alimenta viitorul</p>

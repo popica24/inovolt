@@ -212,7 +212,7 @@ const SmartHome = () => {
           </div>
 
           <div className='flex w-full items-center p-8 font-sans md:p-24'>
-            <img className='mr-4 h-10 w-10 rounded-full' src='' alt='Avatar of Author' />
+            <img className='mr-4 h-10 w-10 rounded-full' src='ceo.jpg' alt='Avatar of Author' />
             <div className='flex-1'>
               <p className='text-base font-bold leading-none md:text-xl'>Andrei Niculae</p>
               <p className='text-xs text-gray-600 md:text-base'>O modalitate mai bună de a alimenta viitorul</p>

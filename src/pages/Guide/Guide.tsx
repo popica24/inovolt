@@ -13,12 +13,9 @@ const Guide = () => {
                 Cum să alegi bateria potrivită pentru sistemul tău solar
               </h1>
               <p className='mt-2 text-xs text-gray-700'>
-                <a
-                  href='#'
-                  className='ms-1 font-medium text-indigo-600 transition duration-500 ease-in-out hover:text-gray-900'
-                >
+                <p className='ms-1 font-medium text-indigo-600 transition duration-500 ease-in-out hover:text-gray-900'>
                   Andrei Niculae
-                </a>
+                </p>
               </p>
               <p className='my-5 text-base leading-8'>
                 Alegerea unei baterii pentru sistemul tău solar reprezintă una dintre cele mai importante decizii în

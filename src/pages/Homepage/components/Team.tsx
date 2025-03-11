@@ -15,9 +15,9 @@ const Team = () => {
           </div>
         </div>
         <div className='flex w-full flex-col items-center justify-center transition-transform duration-1000 ease-in-out md:flex-row'>
-          <Bubble color='#ab23ff8f' image={'team/voltra.png'} />
-          <Bubble color='#7eb6518f' image={'team/jts.jpg'} />
-          <Bubble color='#0000FF8f' image={'team/pendb.jpg'} />
+          <Bubble link='https://voltra.ro/' color='#ab23ff8f' image={'team/voltra.png'} />
+          <Bubble link='https://www.jtssolar.ro/' color='#7eb6518f' image={'team/jts.jpg'} />
+          <Bubble link='https://opendb.ro/' color='#0000FF8f' image={'team/pendb.jpg'} />
         </div>
       </div>
     </section>
@@ -26,9 +26,11 @@ const Team = () => {
 
 export default Team;
 
-const Bubble = ({ image, color }: { image: string; color: string }) => {
+const Bubble = ({ link, image, color }: { link: string; image: string; color: string }) => {
   return (
-    <div
+    <a
+      href={link}
+      target='_blank'
       className={clsx('relative my-3 h-full overflow-hidden rounded-full border-[5px] md:mr-8 ')}
       style={{ borderColor: color }}
     >
@@ -37,6 +39,6 @@ const Bubble = ({ image, color }: { image: string; color: string }) => {
         src={image}
         alt=''
       />
-    </div>
+    </a>
   );
 };
