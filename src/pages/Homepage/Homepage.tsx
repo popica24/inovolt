@@ -10,7 +10,7 @@ const Homepage = () => {
   return (
     <>
       <a
-        href='http://localhost:5173/despre-inovolt#inregistreaza-produs'
+        href='https://inovolt-mu.vercel.app/despre-inovolt#inregistreaza-produs'
         data-aos='fade-right'
         className='animate-bounceUpDown fixed bottom-5 left-5 z-[999] rounded-full bg-[var(--electric-green)] p-4 text-white'
       >
