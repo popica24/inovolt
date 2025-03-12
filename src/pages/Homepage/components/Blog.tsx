@@ -89,7 +89,7 @@ const Blog = () => {
                 />
                 <div className='mt-6 sm:ml-8 sm:mt-0'>
                   <h3 className='mb-6 text-2xl font-medium transition duration-200 group-hover:text-teal-600'>
-                    Cum bateriile InoVolt transformă peisajul energiei solare{' '}
+                    Cum transforma peisajul energiei solare bateriile InoVolt{' '}
                   </h3>
                   <div className='flex items-center'>
                     <img className='h-8 w-8 rounded-full' src='ceo.jpg' alt='' />

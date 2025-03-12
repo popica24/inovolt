@@ -2,7 +2,7 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className='bg-white dark:bg-gray-900'>
+    <footer className='bg-white'>
       <div className='mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8'>
         <div className='md:flex md:justify-between'>
           <div className='mb-6 md:mb-0'>
@@ -12,8 +12,8 @@ const Footer = () => {
           </div>
           <div className='grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6'>
             <div>
-              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white'>Contact</h2>
-              <ul className='font-medium text-gray-500 dark:text-gray-400'>
+              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900'>Contact</h2>
+              <ul className='font-medium text-gray-500'>
                 <li className='mb-4'>
                   <a href='tel:+40774667788' className='hover:underline'>
                     +40 774 667 788
@@ -33,8 +33,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white'>Follow us</h2>
-              <ul className='font-medium text-gray-500 dark:text-gray-400'>
+              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900'>Follow us</h2>
+              <ul className='font-medium text-gray-500'>
                 <li className='mb-4'>
                   <a
                     href='https://www.facebook.com/profile.php?id=61573047651283'
@@ -57,8 +57,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white'>Legal</h2>
-              <ul className='font-medium text-gray-500 dark:text-gray-400'>
+              <h2 className='mb-6 text-sm font-semibold uppercase text-gray-900'>Legal</h2>
+              <ul className='font-medium text-gray-500'>
                 <li className='mb-4'>
                   <a
                     href='https://magazin.inovolt.ro/politica_de_confidentialitate'
@@ -77,9 +77,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className='my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700' />
+        <hr className='my-6 border-gray-200 sm:mx-auto lg:my-8' />
         <div className='sm:flex sm:items-center sm:justify-between'>
-          <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+          <span className='text-sm text-gray-500 sm:text-center'>
             © {year}{' '}
             <a href='/' className='hover:underline'>
               InoVolt™
@@ -90,7 +90,7 @@ const Footer = () => {
             <a
               target='_blank'
               href='https://www.facebook.com/profile.php?id=61573047651283'
-              className='text-gray-500 hover:text-gray-900 dark:hover:text-white'
+              className='text-gray-500 hover:text-gray-900'
             >
               <svg width={24} fill='#000000' version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
                 <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
@@ -110,7 +110,7 @@ const Footer = () => {
             <a
               target='_blank'
               href='https://www.instagram.com/inovolt.ro'
-              className='mx-6 text-gray-500 hover:text-gray-900 dark:hover:text-white'
+              className='mx-6 text-gray-500 hover:text-gray-900'
             >
               <svg width={24} viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
@@ -137,11 +137,7 @@ const Footer = () => {
               </svg>
               <span className='sr-only'>Instagram page</span>
             </a>
-            <a
-              target='_blank'
-              href='https://www.tiktok.com/@inovolt.ro'
-              className='text-gray-500 hover:text-gray-900 dark:hover:text-white'
-            >
+            <a target='_blank' href='https://www.tiktok.com/@inovolt.ro' className='text-gray-500 hover:text-gray-900'>
               <svg
                 fill='#000000'
                 width={24}

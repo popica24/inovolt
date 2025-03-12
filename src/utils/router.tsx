@@ -5,6 +5,7 @@ import Future from 'pages/Future';
 import Guide from 'pages/Guide';
 import Homepage from 'pages/Homepage';
 import SmartHome from 'pages/SmartHome';
+import ValidateBattery from 'pages/ValidateBattery';
 import { createBrowserRouter } from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'inregistrare-produs',
+        element: <ValidateBattery />,
       },
     ],
   },

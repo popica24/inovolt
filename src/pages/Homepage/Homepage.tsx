@@ -9,13 +9,6 @@ import Apps from './components/Apps';
 const Homepage = () => {
   return (
     <>
-      <a
-        href='https://inovolt-mu.vercel.app/despre-inovolt#inregistreaza-produs'
-        data-aos='fade-right'
-        className='animate-bounceUpDown fixed bottom-5 left-5 z-[999] rounded-full bg-[var(--electric-green)] p-4 text-white'
-      >
-        Pentru extinderea garanției cu 3 luni GRATUIT, click aici
-      </a>
       <div className='container mx-auto mb-10 mt-36'>
         <Hero /> <hr className='mt-8' />
         <Brands /> <hr />
