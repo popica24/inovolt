@@ -15,8 +15,9 @@ const Blog = () => {
               <img className='mb-8 block w-full rounded-2xl' src='quantum-assets/blog/big-picture.jpg' alt='' />
               <div className='mb-6'>
                 <a
+                  target='_blank'
                   className='mr-2 inline-block rounded-full border-2 pe-3 ps-2 text-sm font-medium text-[#07C] hover:bg-gray-50'
-                  href='#'
+                  href='https://inovolt.ro/fisa-tehnica.pdf'
                 >
                   <span className='inline-flex items-center'>
                     Fisa tehnica <Download className='ms-1.5 mt-0.5' size={15} />

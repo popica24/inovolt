@@ -4,6 +4,7 @@ import Contact from 'pages/Contact';
 import Future from 'pages/Future';
 import Guide from 'pages/Guide';
 import Homepage from 'pages/Homepage';
+import NotFound from 'pages/NotFound/NotFound';
 import SmartHome from 'pages/SmartHome';
 import ValidateBattery from 'pages/ValidateBattery';
 import { createBrowserRouter } from 'react-router-dom';
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'inregistrare-produs',
         element: <ValidateBattery />,
+      },
+      {
+        path: '*',
+        element: <NotFound />,
       },
     ],
   },

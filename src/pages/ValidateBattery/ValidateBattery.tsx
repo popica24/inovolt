@@ -79,7 +79,7 @@ const ValidateBattery = () => {
         setTimeout(() => (submitBtn.innerText = 'Se finalizeaza validarea...'), 1000);
         const verifyBatteryResponse = await axios({
           method: 'post',
-          url: 'https://script.google.com/macros/s/AKfycbzGBRjwHs7jTpWRfa-0JhtYQW72UEp3-N8aka4hE_JkwGUCectQSDjTk_LBuB13QOrVIA/exec',
+          url: 'https://script.google.com/macros/s/AKfycbyZFBXqM_2F_HDLdvfAklI7SanbmQ-0UDLxOYmpjQ7DQ02ykqdus6wpqnmhJ9VDFUnzEw/exec',
           data: formData,
           headers: {
             'Content-Type': 'multipart/form-data',
@@ -130,9 +130,44 @@ const ValidateBattery = () => {
         </div>
         <form onSubmit={handleSubmit} className='mx-auto mt-16 max-w-xl sm:mt-20'>
           <div className='grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2'>
+            <div className='sm:col-span-2'>
+              <label htmlFor='message' className='block text-sm/6 font-semibold text-gray-900'>
+                Serie Baterie
+              </label>
+              <div className='mt-2.5'>
+                <input
+                  required
+                  value={batterySeries}
+                  onChange={(e) => setBatterySeries(e.target.value)}
+                  type='text'
+                  name='phone-number'
+                  id='phone-number'
+                  placeholder='XXX-XXXX-XXX'
+                  className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
+                />
+              </div>
+            </div>
+
+            <div className='sm:col-span-2'>
+              <label htmlFor='message' className='block text-sm/6 font-semibold text-gray-900'>
+                Incarca Factura
+              </label>
+              <div className='mt-2.5'>
+                <input
+                  // required
+                  accept='.pdf,image/*'
+                  onChange={handleFileChange}
+                  type='file'
+                  name='phone-number'
+                  id='phone-number'
+                  placeholder='XXX-XXXX-XXX'
+                  className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
+                />
+              </div>
+            </div>
             <div>
               <label htmlFor='first-name' className='block text-sm/6 font-semibold text-gray-900'>
-                First name
+                Nume
               </label>
               <div className='mt-2.5'>
                 <input
@@ -149,7 +184,7 @@ const ValidateBattery = () => {
             </div>
             <div>
               <label htmlFor='last-name' className='block text-sm/6 font-semibold text-gray-900'>
-                Last name
+                Prenume
               </label>
               <div className='mt-2.5'>
                 <input
@@ -200,41 +235,6 @@ const ValidateBattery = () => {
                     placeholder='07XXXXXXXX'
                   />
                 </div>
-              </div>
-            </div>
-            <div className='sm:col-span-2'>
-              <label htmlFor='message' className='block text-sm/6 font-semibold text-gray-900'>
-                Serie Baterie
-              </label>
-              <div className='mt-2.5'>
-                <input
-                  required
-                  value={batterySeries}
-                  onChange={(e) => setBatterySeries(e.target.value)}
-                  type='text'
-                  name='phone-number'
-                  id='phone-number'
-                  placeholder='XXX-XXXX-XXX'
-                  className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
-                />
-              </div>
-            </div>
-
-            <div className='sm:col-span-2'>
-              <label htmlFor='message' className='block text-sm/6 font-semibold text-gray-900'>
-                Serie Baterie
-              </label>
-              <div className='mt-2.5'>
-                <input
-                  // required
-                  accept='.pdf,image/*'
-                  onChange={handleFileChange}
-                  type='file'
-                  name='phone-number'
-                  id='phone-number'
-                  placeholder='XXX-XXXX-XXX'
-                  className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
-                />
               </div>
             </div>
 

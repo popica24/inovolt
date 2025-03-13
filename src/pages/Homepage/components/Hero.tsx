@@ -54,16 +54,16 @@ const Hero = () => {
             <a
               href='tel:+40774667788'
               className='ms-4 rounded bg-white px-4 py-2 font-bold text-[#55BC01] transition-colors hover:bg-[#55BC01] hover:text-white'
-            >  
+            >
               Consultanta
             </a>
           </div>
           <div className='mt-8 flex w-full flex-col items-center justify-start md:flex-row'>
-            <a href='#apple' className='md:me-4 '>
+            <a data-aos-delay='300' data-aos='fade-up-right' href='#apple' className='md:me-4 '>
               <img className='w-[300px]' src='app-store.png' />
             </a>
 
-            <a href='#android' className='md:ms-4'>
+            <a data-aos='fade-up-left' data-aos-delay='300' href='#android' className='md:ms-4'>
               <img className='w-[300px]' src='google-play.png' />
             </a>
           </div>
