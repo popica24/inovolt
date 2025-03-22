@@ -19,7 +19,7 @@ const Homepage = () => {
           data-aos-duration='3000'
         >
           <h2 className='section-bold-title'>Vă prezentăm cu mândrie</h2>
-          <img src='battery.png' className='my-6' />
+          <img src='battery.gif' className='my-6' />
           <h2 className='section-title text-2xl'>Bateria InoVolt 16kw</h2>
         </div>
         <hr />

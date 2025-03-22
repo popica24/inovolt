@@ -5,7 +5,7 @@
 :root {
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --default-mono-font-family: var(--font-mono);
-  --electric-green: #7eb651;
+  --electric-green: #06ab02;
 }
 
 .default-font {

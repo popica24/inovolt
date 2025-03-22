@@ -186,31 +186,6 @@ const SmartHome = () => {
               </li>
             </ol>
           </div>
-
-          <div className='container mt-8 rounded bg-green-100 p-4 text-center font-sans md:p-24'>
-            <h2 className='break-normal text-2xl font-bold md:text-4xl'>Inregistreaza-ti produsul !</h2>
-            <h3 className=' break-normal text-base font-normal text-gray-600 md:text-xl'>
-              Pentru o garantie extra de 3 luni inregistreaza-ti prodsul
-            </h3>
-            <div className='w-full pt-4 text-center'>
-              <form action='#'>
-                <div className='mx-auto flex max-w-sm flex-wrap items-center p-1 pr-0'>
-                  <input
-                    type='email'
-                    placeholder='Seria Bateriei'
-                    className='mr-2 flex-1 appearance-none rounded p-3 text-gray-600 shadow focus:outline-none'
-                  />
-                  <button
-                    type='submit'
-                    className='mt-4 block flex-1 appearance-none rounded bg-green-500 py-4 text-base font-semibold uppercase tracking-wider text-white shadow hover:bg-green-400 md:mt-0 md:inline-block'
-                  >
-                    Trimite
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-
           <div className='flex w-full items-center p-8 font-sans md:p-24'>
             <img className='mr-4 h-10 w-10 rounded-full' src='ceo.jpg' alt='Avatar of Author' />
             <div className='flex-1'>

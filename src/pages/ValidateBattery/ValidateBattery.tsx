@@ -8,6 +8,8 @@ const ValidateBattery = () => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [buyDate, setBuyDate] = useState('');
+  const [productType, setProductType] = useState('');
   const [bill, setBill] = useState<File | null>(null);
 
   const [isLoading, setIsLoading] = useState(false);
@@ -71,6 +73,8 @@ const ValidateBattery = () => {
       formData.append('name', firstName + ' ' + lastName);
       formData.append('email', email);
       formData.append('phone', phone);
+      formData.append('buyDate', buyDate);
+      formData.append('productType', productType);
       formData.append('bill', base64File);
 
       // If first call succeeds, proceed with second call
@@ -79,7 +83,7 @@ const ValidateBattery = () => {
         setTimeout(() => (submitBtn.innerText = 'Se finalizeaza validarea...'), 1000);
         const verifyBatteryResponse = await axios({
           method: 'post',
-          url: 'https://script.google.com/macros/s/AKfycbyZFBXqM_2F_HDLdvfAklI7SanbmQ-0UDLxOYmpjQ7DQ02ykqdus6wpqnmhJ9VDFUnzEw/exec',
+          url: 'https://script.google.com/macros/s/AKfycbzcJh8k76Co5HW8bRK_wBS-lzAYV7JDilLZCJKZxVjher61-n_baAlaMZ3dyji4p0Tbjg/exec',
           data: formData,
           headers: {
             'Content-Type': 'multipart/form-data',
@@ -104,6 +108,8 @@ const ValidateBattery = () => {
       setLastName('');
       setEmail('');
       setPhone('');
+      setBuyDate('');
+      setProductType('');
     }
   };
 
@@ -146,6 +152,37 @@ const ValidateBattery = () => {
                   className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
                 />
               </div>
+            </div>
+            <div className='sm:col-span-2'>
+              <div className='flex w-full flex-col'>
+                <label htmlFor='message' className='mb-2 block text-sm/6 font-semibold text-gray-900'>
+                  Data facturii
+                </label>
+
+                <input
+                  onChange={(e) => setBuyDate(e.target.value)}
+                  value={buyDate}
+                  type='date'
+                  id='buy-date'
+                  name='buy-date'
+                  className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
+                />
+              </div>
+            </div>
+            <div className='sm:col-span-2'>
+              <label htmlFor='productType' className='mb-2 block text-sm/6 font-semibold text-gray-900'>
+                Model
+              </label>
+              <select
+                onChange={(e) => setProductType(e.target.value)}
+                value={productType}
+                id='productType'
+                className='block w-full rounded-md border border-[var(--electric-green)] bg-white px-3.5 py-2 text-base'
+              >
+                <option selected>Alege model</option>
+                <option value='PowerPack'>PowerPack</option>
+                <option value='AutoPack'>AutoPack</option>
+              </select>
             </div>
 
             <div className='sm:col-span-2'>
