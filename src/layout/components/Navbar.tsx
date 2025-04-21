@@ -49,17 +49,17 @@ const Nav = () => {
             className='mt-4 basis-full md:hidden'
           >
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <a href='/' className='default-font mx-2'>
+              <a href='/' className='default-font mx-2 hover:text-[var(--electric-green)]'>
                 Acasa
               </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <a href='https://magazin.inovolt.ro' className='default-font mx-2'>
+              <a href='https://magazin.inovolt.ro' className='default-font mx-2 hover:text-[var(--electric-green)]'>
                 Magazin
               </a>
             </motion.div>
             <motion.div variants={mobileNavListVariant} {...mobileNavExitProps}>
-              <a href='/contact' className='default-font mx-2'>
+              <a href='/contact' className='default-font mx-2 hover:text-[var(--electric-green)]'>
                 Contact
               </a>
             </motion.div>
@@ -165,16 +165,15 @@ const Nav = () => {
 const NavLinks = () => {
   return (
     <>
-      <a className='default-font mx-2' href='/'>
+      <a className='default-font mx-2 hover:text-[var(--electric-green)]' href='/'>
         Acasa
       </a>
-      <a className='default-font mx-2' href='https://magazin.inovolt.ro'>
+      <a className='default-font mx-2 hover:text-[var(--electric-green)]' href='https://magazin.inovolt.ro'>
         Magazin
       </a>
-      <a className='default-font mx-2' href='/contact'>
+      <a className='default-font mx-2 hover:text-[var(--electric-green)]' href='/contact'>
         Contact
       </a>
-
       <div className='ms-auto flex w-full flex-row items-center justify-end'>
         <a target='_blank' className='default-font mx-2' href='https://www.facebook.com/profile.php?id=61573047651283'>
           <svg
